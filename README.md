@@ -77,8 +77,3 @@ Support Vector Machine (SVM) → Accuracy: 89.27%
 ---
 
 
-
-For questions or suggestions, feel free to open an issue or contact me via GitHub.
-
----
-
