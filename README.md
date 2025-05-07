@@ -62,43 +62,21 @@ This project focuses on predicting **customer churn** using supervised machine l
 ### ✅ Results
 
 ```text
-Logistic Regression     → Accuracy: 88.7%
-Random Forest           → Accuracy: 93.2%
-XGBoost                 → Accuracy: 92.4%
-K-Nearest Neighbors     → Accuracy: 91.1%
-LightGBM (GBooster)     → Accuracy: 92.3%
-Support Vector Machine  → Accuracy: 89.5%
+Logistic Regression         → Accuracy: 88.57%
+Random Forest               → Accuracy: 89.73%
+XGBoost                     → Accuracy: 89.50%
+LightGBM                    → Accuracy: 89.93%
+K-Nearest Neighbors (KNN)   → Accuracy: 87.47%
+Support Vector Machine (SVM) → Accuracy: 89.27%
+
 
 🎯 Best Model: Random Forest Classifier  
-✔️ Accuracy: 93.2%
+✔️ Accuracy: 89.73%
 ```
 
 ---
 
-### 📁 Output
 
-Final predictions were saved to a CSV file:
-
-```python
-final_df.to_csv("final_predictions.csv", index=False)
-```
-
----
-
-### ▶️ How to Run
-
-1. Clone the repository
-2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Open and run the notebook `churn_prediction.ipynb` in Jupyter or Kaggle
-
----
-
-### 📬 Contact
 
 For questions or suggestions, feel free to open an issue or contact me via GitHub.
 
